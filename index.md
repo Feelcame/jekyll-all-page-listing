@@ -1,9 +1,8 @@
 ---
-title: 2 Главная
 date: 2021-06-01T01:19:52+03:00
 ---
 
-Hello!
+### index
 
 
 ### All pages:
