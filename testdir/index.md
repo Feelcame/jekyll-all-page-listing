@@ -2,7 +2,8 @@
 date: 2021-01-01T00:00:00+00:00
 ---
 
-### index  ({{ page.dir }})
+### index
+эта папка - ({{ page.dir }})
 
 
 ### All pages:
