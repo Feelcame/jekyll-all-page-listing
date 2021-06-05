@@ -8,13 +8,6 @@ date: 2021-01-01T00:00:00+00:00
 <a href="./testdir">другая папка - ./testdir</a> 
 
 ### All pages:
-{% assign allpageswithdate = site.pages %}
-{% for p in allpageswithdate %}
-{% if p.date != true %}
-неверная дата...  
-{% p.date = page.date %}
-{% endif %}{% endfor %}
-
 
 {% assign allpages = site.pages | sort: 'date' | reverse %}
 {% for p in allpages %}{% if p.dir == page.dir %}
