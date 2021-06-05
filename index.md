@@ -19,5 +19,5 @@ date: 2021-01-01T00:00:00+00:00
 {% assign allpages = site.pages | sort: 'date' | reverse %}
 {% for p in allpages %}{% if p.dir == page.dir %}
 <p><a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a> 
-{{ p.date | date: "%Y-%m-%d" | default: "гггг-мм-дд" }}</p>
+{{ p.date | default: "гггг-мм-дд" }}</p>
 {% endif %}{% endfor %}
